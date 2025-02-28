@@ -3,7 +3,6 @@ package com.example;
 import java.time.*;
 
 public class DateTimeFunctions {
-
 	/*
 	 * Update the class and existing methods as necessary to perform the required calculations
 	 * and return the expected results.
@@ -34,7 +33,6 @@ public class DateTimeFunctions {
 		//YOUR CODE STARTS HERE
 		return date.plusDays(x);
 		//YOUR CODE ENDS HERE
-
 	}
 
 	/*
@@ -57,7 +55,6 @@ public class DateTimeFunctions {
 		Period period = Period.between(date1, date2);
 		return "Years-" + Math.abs(period.getYears()) + ":Months-" + Math.abs(period.getMonths()) + ":Days-" + Math.abs(period.getDays());
 		//YOUR CODE ENDS HERE
-
 	}
 
 	public static void main(String[] args) {
